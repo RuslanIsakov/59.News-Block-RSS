@@ -9,3 +9,9 @@ header('Content-Type: text/html; charset=utf-8');
 function parse_rss($reg_exp, $xml_data) {
     preg_match_all($reg_exp, $xml_data, $temp);
     return array(
+        'count'=>count($temp[0]),
+        'title'=>$temp[1],
+        'link'=>$temp[2],
+        'desc'=>$temp[3]
+    );
+}
