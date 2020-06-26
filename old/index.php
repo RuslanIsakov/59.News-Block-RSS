@@ -34,3 +34,5 @@ $temp .= sprintf($pattern,
  * Settings                                               *
  **********************************************************/
 $url = 'https://ru.sputnik.kg/export/rss2/archive';
+$reg_exp  = '#<item>.*?<title>(.*?)<\/title>.*?';
+$reg_exp .='<link>(.*?)<\/link>.*?<description>';
