@@ -43,3 +43,5 @@ $pattern = '<a href="%s" target="_blank">%s</a><br>%s<hr>';
  **********************************************************/
 if ( $xml_data = file_get_contents($url) ) {
     $rss_data = parse_rss($reg_exp, $xml_data);
+ echo output_rss($pattern, $rss_data, 80);
+}
