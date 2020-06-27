@@ -15,6 +15,7 @@ function parse_rss($reg_exp, $xml_data) {
         'desc'=>$temp[3]
     );
 }
+ 
 /**********************************************************
  * Parse Array data into an HTML structure                *
  * Usage: string parse_rss ( array data )                 *
@@ -22,28 +23,32 @@ function parse_rss($reg_exp, $xml_data) {
 function output_rss($pattern, $rss_data, $count_latest) {
     $temp = null;
     for($i = 0; $i < $count_latest; $i++) {
-$temp .= sprintf($pattern,
+        $temp .= sprintf($pattern,
             $rss_data['link'][$i],
             html_entity_decode($rss_data['title'][$i]),
             html_entity_decode($rss_data['desc'][$i])
         );
-}
+    }
     return $temp;
 }
+ 
 /**********************************************************
  * Settings                                               *
  **********************************************************/
 $url = 'https://ru.sputnik.kg/export/rss2/archive';
+
 $reg_exp  = '#<item>.*?<title>(.*?)<\/title>.*?';
 $reg_exp .='<link>(.*?)<\/link>.*?<description>';
 $reg_exp .='(.*?)<\/description>.*?<\/item>#si';
+ 
 $pattern = '<a href="%s" target="_blank">%s</a><br>%s<hr>';
+ 
 /**********************************************************
  * Main script                                            *
  **********************************************************/
 if ( $xml_data = file_get_contents($url) ) {
     $rss_data = parse_rss($reg_exp, $xml_data);
- echo output_rss($pattern, $rss_data, 80);
+    echo output_rss($pattern, $rss_data, 80);
 }
 /**********************************************************
  * The END                                                *
