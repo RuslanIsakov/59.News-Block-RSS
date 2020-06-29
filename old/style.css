@@ -3,3 +3,8 @@ body
     margin: 30px 20% 30px 20%;
     font-size: 18px;
 }
+a
+{
+    font-size: 18px;
+    color: #ff0000;
+}
