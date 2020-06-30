@@ -28,3 +28,9 @@ function parse_rss($reg_exp, $xml_data) {
         'link'=>$temp[2],
         'desc'=>$temp[3]
     );
+}
+ 
+/**********************************************************
+ * Parse Array data into an HTML structure                *
+ * Usage: string parse_rss ( array data )                 *
+ **********************************************************/
