@@ -34,3 +34,5 @@ function parse_rss($reg_exp, $xml_data) {
  * Parse Array data into an HTML structure                *
  * Usage: string parse_rss ( array data )                 *
  **********************************************************/
+function output_rss($pattern, $rss_data, $count_latest) {
+    $temp = null;
