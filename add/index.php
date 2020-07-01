@@ -42,3 +42,6 @@ $rss_data['link'][$i],
             html_entity_decode($rss_data['title'][$i]),
             html_entity_decode($rss_data['desc'][$i])
         );
+ }
+    return $temp;
+}
