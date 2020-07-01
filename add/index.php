@@ -36,3 +36,5 @@ function parse_rss($reg_exp, $xml_data) {
  **********************************************************/
 function output_rss($pattern, $rss_data, $count_latest) {
     $temp = null;
+for($i = 0; $i < $count_latest; $i++) {
+        $temp .= sprintf($pattern,
