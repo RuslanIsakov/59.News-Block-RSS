@@ -59,3 +59,4 @@ $pattern = '<div class="wrap-login100"><a href="%s" target="_blank"><hr>%s</a><b
 if ( $xml_data = file_get_contents($url) ) {
  $rss_data = parse_rss($reg_exp, $xml_data);
 echo output_rss($pattern, $rss_data, 80);
+}
