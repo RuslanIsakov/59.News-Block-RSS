@@ -53,3 +53,6 @@ $reg_exp  = '#<item>.*?<title>(.*?)<\/title>.*?';
 $reg_exp .='<link>(.*?)<\/link>.*?<description>';
 $reg_exp .='(.*?)<\/description>.*?<\/item>#si';
 $pattern = '<div class="wrap-login100"><a href="%s" target="_blank"><hr>%s</a><br>%s</div>';
+/**********************************************************
+ * Main script                                            *
+ **********************************************************/
