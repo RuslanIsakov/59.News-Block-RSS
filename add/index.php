@@ -56,3 +56,4 @@ $pattern = '<div class="wrap-login100"><a href="%s" target="_blank"><hr>%s</a><b
 /**********************************************************
  * Main script                                            *
  **********************************************************/
+if ( $xml_data = file_get_contents($url) ) {
