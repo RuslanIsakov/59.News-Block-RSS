@@ -40,3 +40,6 @@ a {
   	-o-transition: all 0.4s;
  	-moz-transition: all 0.4s;
 }
+a:focus {
+	outline: none !important;
+}
