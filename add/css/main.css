@@ -43,3 +43,7 @@ a {
 a:focus {
 	outline: none !important;
 }
+a:hover {
+	text-decoration: none;
+  color: #57b846;
+}
