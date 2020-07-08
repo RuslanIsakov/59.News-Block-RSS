@@ -87,3 +87,4 @@ input:-moz-placeholder { color: #999999; }
 input::-moz-placeholder { color: #999999; }
 input:-ms-input-placeholder { color: #999999; }
 textarea::-webkit-input-placeholder { color: #999999; }
+textarea:-moz-placeholder { color: #999999; }
