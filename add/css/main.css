@@ -102,3 +102,8 @@ button:hover {
 iframe {
 	border: none !important;
 }
+/*//////////////////////////////////////////////////////////////////
+[ Utility ]*/
+.txt1 {
+  font-family: Poppins-Regular;
+  font-size: 13px;
