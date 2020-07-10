@@ -142,3 +142,6 @@ line-height: 1.5;
 }
 .wrap-login100 {
   width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
