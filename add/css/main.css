@@ -234,3 +234,5 @@ display: -moz-box;
 display: flex;
   align-items: center;
   position: absolute;
+ border-radius: 25px;
+  bottom: 0;
