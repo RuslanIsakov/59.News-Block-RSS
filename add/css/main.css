@@ -227,3 +227,5 @@ box-shadow: 0px 0px 70px 25px;
 }
 .symbol-input100 {
   font-size: 15px;
+display: -webkit-box;
+  display: -webkit-flex;
