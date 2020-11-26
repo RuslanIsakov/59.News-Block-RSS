@@ -236,3 +236,5 @@ display: flex;
   position: absolute;
  border-radius: 25px;
   bottom: 0;
+ left: 0;
+  width: 100%;
