@@ -247,3 +247,5 @@ height: 100%;
 -moz-transition: all 0.4s;
   transition: all 0.4s;
 }
+.input100:focus + .focus-input100 + .symbol-input100 {
+  color: #57b846;
