@@ -261,3 +261,6 @@ padding-left: 28px;
 display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
+justify-content: center;
+  padding-top: 20px;
+}
