@@ -264,3 +264,6 @@ display: -ms-flexbox;
 justify-content: center;
   padding-top: 20px;
 }
+.login100-form-btn {
+  font-family: Montserrat-Bold;
+  font-size: 15px;
