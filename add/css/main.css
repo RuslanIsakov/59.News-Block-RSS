@@ -298,3 +298,7 @@ color: #fff;
   .wrap-login100 {
 padding: 177px 90px 33px 85px;
   }
+
+  .login100-pic {
+    width: 35%;
+  }
