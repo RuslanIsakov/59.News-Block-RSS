@@ -306,3 +306,7 @@ padding: 177px 90px 33px 85px;
     width: 50%;
   }
 }
+@media (max-width: 768px) {
+  .wrap-login100 {
+    padding: 100px 80px 33px 80px;
+  }
