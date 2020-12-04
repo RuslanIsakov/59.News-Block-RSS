@@ -310,3 +310,6 @@ padding: 177px 90px 33px 85px;
   .wrap-login100 {
     padding: 100px 80px 33px 80px;
   }
+.login100-pic {
+    display: none;
+  }
