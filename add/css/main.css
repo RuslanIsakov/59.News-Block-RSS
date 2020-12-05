@@ -330,3 +330,5 @@ padding: 100px 15px 33px 15px;
 .alert-validate::before {
   content: attr(data-validate);
   position: absolute;
+ max-width: 70%;
+  background-color: white;
