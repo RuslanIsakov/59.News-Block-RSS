@@ -349,3 +349,5 @@ pointer-events: none;
   font-size: 13px;
 line-height: 1.4;
   text-align: left;
+visibility: hidden;
+  opacity: 0;
