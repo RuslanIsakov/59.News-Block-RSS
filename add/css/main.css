@@ -360,3 +360,5 @@ visibility: hidden;
   content: "\f06a";
 font-family: FontAwesome;
   display: block;
+position: absolute;
+  color: #c80000;
