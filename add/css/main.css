@@ -358,3 +358,5 @@ visibility: hidden;
 }
 .alert-validate::after {
   content: "\f06a";
+font-family: FontAwesome;
+  display: block;
