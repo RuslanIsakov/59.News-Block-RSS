@@ -371,3 +371,5 @@ font-size: 15px;
  transform: translateY(-50%);
   right: 13px;
 }
+.alert-validate:hover:before {
+  visibility: visible;
