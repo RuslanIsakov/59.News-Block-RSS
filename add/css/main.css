@@ -375,3 +375,5 @@ font-size: 15px;
   visibility: visible;
 opacity: 1;
 }
+@media (max-width: 992px) {
+  .alert-validate::before {
