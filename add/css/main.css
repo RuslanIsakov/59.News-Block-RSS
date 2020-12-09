@@ -364,3 +364,5 @@ position: absolute;
   color: #c80000;
 font-size: 15px;
   top: 50%;
+-webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
