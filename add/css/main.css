@@ -379,3 +379,5 @@ opacity: 1;
   .alert-validate::before {
 visibility: visible;
     opacity: 1;
+}
+}
