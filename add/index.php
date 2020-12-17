@@ -13,7 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
 <!--===============================================================================================-->
 
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/main.css">
 <link rel="stylesheet" href="css/style.css">
 <title> News </title>
 <?php
